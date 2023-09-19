@@ -1,0 +1,43 @@
+body {
+    background: #ffdeef;
+    font-family: Calibri, "Open Sans", Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #d21f3c;
+    font-size: 18px;
+}
+h4 {
+    font-family: Cambria, "Hoefler Text", Utopia, Times, "Times New Roman", serif;
+    margin: 0;
+}
+p {
+    margin-top: 0;
+}
+.gogreen {
+    color: #42b325;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom:20px;
+    margin-top: 0;
+}
+.bold {
+    font-weight: bold;
+}
+.big-text {
+    font-size: 40px;
+}
+
+.big-text {
+    font-size: 100px;
+    line-height: 110px;
+}
+.nolist {
+    list-style: none;
+    padding: 0;
+}
+h4 {
+    font-size: 24px;
+}
+
+
+
