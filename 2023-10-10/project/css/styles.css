@@ -1,0 +1,3 @@
+html, body {color:#333; background:#efefef;}
+.content {width:1600px; height:776px; background:url(../images/bg.jpg) no-repeat center 0; margin:0 auto;}
+#navbar {display:flex; justify-content:space-between;}

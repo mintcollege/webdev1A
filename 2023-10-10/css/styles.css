@@ -1,0 +1,11 @@
+html, body {font-size:18px; color:#333; background:url(../images/bg.jpg); text-align:center;}
+.row1 {display:flex; justify-content:space-between; gap:10px; margin-bottom:10px;}
+.row1 > div {background:orange; flex:1; height:100px;}
+.row2 {display:flex; gap:10px; justify-content:space-between;}
+.row2 > div {flex:1; height:100px; display:flex; flex-direction:column; gap:10px;}
+.row2 > div > div {background:gray; flex:1;}
+.row3 {display:flex; justify-content:space-between; gap:10px;}
+.row3 > div {background:pink; flex:1; height:100px;}
+p {background:#b8f3ab; display:inline-block; padding:10px; margin:10px;}
+.button {background:#f0f; padding:10px; text-decoration:none; color:#FFF; border-radius:3px; display:inline-block;}
+.button:hover {background:#69C; box-shadow:0 5px 10px #999;}
