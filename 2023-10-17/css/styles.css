@@ -1,0 +1,22 @@
+
+#discover {height:807px; padding:20px 20px 0; background:url(../images/feat-image-01.jpg) right top no-repeat #1F2630; color:#DDD;}
+#discover h2 {font-weight:normal;}
+#discover .content > .wrapper {width:1000px; margin:0 auto;}
+#discover .text {width:500px; margin-top:75px;}
+#header {display:flex; align-items:end;}
+#header .logo {margin-right:30px;}
+#navbar ul {display:flex; gap:7px;}
+#navbar a {display:inline-block; padding:12px 10px; text-decoration:none; color:#FFF; font-weight:bold;}
+#navbar a:hover {background:#0A9BB1;}
+
+
+#hiking-classes {width:1000px; margin:0 auto; padding:50px 50px 0;}
+#hiking-classes .wrapper {display:flex; justify-content:space-between; gap:40px; text-align:center;}
+#hiking-classes h2 {margin-bottom:10px;}
+#hiking-classes h4 {margin:25px 0;}
+#hiking-classes p {font-size:1.3rem; line-height:1.7rem;}
+
+.stroke {border-bottom:8px solid #0CC4DF; width:100px; margin-bottom:30px;}
+
+#footer {display:flex; justify-content:space-between; padding:0 50px 40px; margin-top:100px; border-bottom:10px solid #0CC4DF;}
+#footer .right {display:flex; justify-content:space-between; gap:30px;}
