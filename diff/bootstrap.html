@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+        html, body {font-size:1.65rem; font-weight:bold; color:#5E81AC;}
+        h1 {font-size:2rem;}
+        div.col > div:not(.nobg) {background:#88C0D0; height:200px; line-height:200px; text-align:center;}
+    </style>
+    <script defer src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid px-3">
+    <h1>HTML/CSS + Bootstrap</h1>
+    <div class="row gx-3 gy-3">
+        <div class="col col-12 col-sm-6 col-xl-4 col-xxl-2"><div>1</div></div>
+        <div class="col col-12 col-sm-6 col-xl-4 col-xxl-2"><div>2</div></div>
+        <div class="col col-12 col-sm-6 col-xl-4 col-xxl-2"><div>3</div></div>
+        <div class="col col-12 col-sm-6 col-xl-4 col-xxl-2"><div>4</div></div>
+        <div class="col col-12 col-sm-6 col-xl-4 col-xxl-2"><div>5</div></div>
+        <div class="col col-12 col-sm-6 col-xl-4 col-xxl-2"><div>6</div></div>
+    </div>
+
+    <div class="mt-5">
+        <button class="btn btn-tertiary p-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapse" aria-expanded="false" aria-controls="collapse">
+            with images
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-images"
+                     viewBox="0 0 16 16">
+  <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+  <path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z"/>
+</svg>
+            </span>
+        </button>
+        <div class="collapse" id="collapse">
+            <div class="row gx-3 gy-3">
+                <div class="col col-12 col-sm-6 col-xl-4 col-xxl-2">
+                    <div class="nobg">
+                        <img src="images/hades.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col col-12 col-sm-6 col-xl-4 col-xxl-2">
+                    <div class="nobg">
+                        <img src="images/amongus.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col col-12 col-sm-6 col-xl-4 col-xxl-2">
+                    <div class="nobg">
+                        <img src="images/cuphead.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col col-12 col-sm-6 col-xl-4 col-xxl-2">
+                    <div class="nobg">
+                        <img src="images/forza.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col col-12 col-sm-6 col-xl-4 col-xxl-2">
+                    <div class="nobg">
+                        <img src="images/kena.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col col-12 col-sm-6 col-xl-4 col-xxl-2">
+                    <div class="nobg">
+                        <img src="images/tr.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
