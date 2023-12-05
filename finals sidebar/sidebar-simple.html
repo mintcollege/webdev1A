@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to Luxyard Inn</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- This makes sure it takes over the entire width -->
+<div class="container-fluid">
+
+    <!--
+    min-vh-100: so the height is 100%
+    More info on: https://getbootstrap.com/docs/5.3/utilities/sizing/
+    -->
+    <div class="row min-vh-100">
+
+        <!--
+        d-none: element disappears
+        d-block: element appears
+        More info on: https://getbootstrap.com/docs/5.3/utilities/display/
+        -->
+        <aside id="sidebar" class="col-auto px-0 d-none d-md-block basic">
+
+            <ul>
+                <li class="mb-4"><a href="#"><img src="images/menu-icon.png" alt=""></a></li>
+                <li><a href="#"><img src="images/tag-icon.png" alt=""></a></li>
+                <li><a href="#"><img src="images/email-icon.png" alt=""></a></li>
+                <li><a href="#"><img src="images/location-icon.png" alt=""></a></li>
+            </ul>
+
+        </aside>
+
+        <div class="col">
+
+            <header id="header">Header here</header>
+
+            <main>
+                <h1>Content here</h1>
+                <p>Layout with simple sidebar: icon only</p>
+            </main>
+
+            <footer id="footer">Footer here</footer>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

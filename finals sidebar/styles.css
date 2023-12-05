@@ -1,0 +1,6 @@
+#sidebar {background:#F2E2C1;}
+#sidebar ul {padding:0; list-style:none;}
+#sidebar li {text-align:center;}
+#sidebar.basic a {display:block; padding:15px;}
+#sidebar.advanced a {display:block; padding:15px; text-decoration:none; font-weight:bold; font-size:1.4rem; color:#616161;}
+#sidebar a:hover {background:#DEB663;}
